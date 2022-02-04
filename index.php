@@ -1,7 +1,8 @@
 <?php
 
 $cars = [
-    "1" => [
+    [
+        "id" => "1", 
         "marca" => 'Volkswagen',
         "modello" => 'Golf',
         "colore" => 'Blu',
@@ -16,13 +17,14 @@ $cars = [
         "condizioni veicolo" => 'Usato',
         "interni" => 'Alcantara',
         "classe emissioni" => '4',
-        "prezzo" => '6200,00',
+        "prezzo" => '6200.00',
         "foto" => 'http://auto-esperienza.com/wp-content/uploads/2017/09/vw-golf-vi-6-usata-motore-cambio-sospensioni-elettronica-tdi-dsg-tfsi-difetti-cerchi-cerchioni-fari-e1506715650512.jpg',
         "cavalli" => '122',
         "kilowatt" => '90',
         "cilindrata" => '1390',
     ],
-    "2" => [
+    [
+        "id" => "2",
         "marca" => 'Fiat',
         "modello" => 'Panda',
         "colore" => 'Bianco',
@@ -37,13 +39,14 @@ $cars = [
         "condizioni veicolo" => 'Usato',
         "interni" => '',
         "classe emissioni" => '4',
-        "prezzo" => '5000,00',
+        "prezzo" => '5000.00',
         "foto" => '',
         "cavalli" => '80',
         "kilowatt" => '44',
         "cilindrata" => '1000',
     ],
-    "3" => [
+    [
+        "id" => "3"
         "marca" => 'Renault',
         "modello" => 'Twingo',
         "colore" => 'Carta da zucchero',
@@ -58,7 +61,7 @@ $cars = [
         "condizioni veicolo" => 'Nuovo',
         "interni" => 'Pelle',
         "classe emissioni" => '',
-        "prezzo" => '20000,00',
+        "prezzo" => '20000.00',
         "foto" => 'https://hd2.tudocdn.net/935236?w=660&h=440',
         "cavalli" => '82',
         "kilowatt" => '60',
